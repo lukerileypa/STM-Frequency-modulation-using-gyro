@@ -147,10 +147,12 @@ int main(void)
 
 	uint32_t tickslast = 0;
 	uint32_t tickslast1 = 0;
-  /* USER CODE END 2 */
+
 	int16_t a_Raw[3];
 	 LIS3DSH_Init();
 	LIS3DSH_ReadXYZ(a_Raw);
+  /* USER CODE END 2 */
+	
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
 	while (1) {
